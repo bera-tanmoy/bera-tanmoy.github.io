@@ -3,7 +3,7 @@
 /*font-family: 'Kalpurush', serif;*/
 
 * {
-    margin: 25px;
+    margin: auto
     padding: 0;
     box-sizing: border-box;
 }
@@ -17,9 +17,12 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
-    background-color: none;
     align-items: center;
+    position: sticky;
+    bacground-color: light grey;
+    padding: 8px;
+    background-color: none;
+    
 }
 
 <!--.navbar div {
