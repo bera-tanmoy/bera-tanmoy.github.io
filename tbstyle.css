@@ -38,7 +38,7 @@
     font-weight: bold;
     transition: color 0.3s ease;
 }
-/*.nav-list li a:hover {
+.nav-list li a:hover {
     color: #ffe66d;
     text-shadow: 1px 1px 5px #000;
-}*/
+}
