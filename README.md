@@ -1,1 +1,1 @@
-# This is my website.
+# This is for my personal use.
