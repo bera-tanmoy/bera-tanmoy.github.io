@@ -13,3 +13,15 @@
     align-items: center;
     position: sticky;
 }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: darkblue;
+    align-items: center;
+}
+
+<!--.navbar div {
+    /*color: white;*/
+}-->
