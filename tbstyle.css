@@ -28,7 +28,8 @@ body {
 }
 
 .main-margin{
-	margin: 5px 600px;
+	/*margin: 5px 600px;*/
+	margin: 0 auto;
 }
 
 .kalpurush-font{
