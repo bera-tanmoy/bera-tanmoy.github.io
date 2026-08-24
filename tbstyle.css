@@ -10,7 +10,12 @@
 /* To make the entire page centered*/
 body {
   font-family: 'Georgia', serif;
-  magin: 5% 20% 5%;
+  font-size: 20px;
+  background-color: #FFFFFF;
+}
+
+.main-margin{
+	margin: 5px 600px;
 }
 
 .kalpurush-font{
@@ -22,28 +27,37 @@ body {
     display: flex;
     align-items: center;
     position: sticky;
+    justify-content: center;
+    margin: 0 ;
+    padding: 0;
 }
 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     position: sticky;
-    bacground-color: light-grey;
-    padding: 8px;
-    
+    background-color: transparent;
+    /* Remove shadow/drop effects */
+    box-shadow: none;
+    /* Ensure the border remains visible */
+    border: 1px solid #E6F0DF; /* Adjust color and width as needed */
+    height: auto;
+    width: 100%;
+    margin-top: -25px;
+    margin-bottom: 15px;
     
 }
-
-<!--.navbar div {
-    /*color: white;*/
-}-->
 
 .nav-list {
     display: flex;
     align-items: center;
-    gap: 25px;
+    justify-content: space-between;
+    gap: 20px;
     list-style: none;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 .nav-list li a {
     text-decoration: none;
@@ -53,8 +67,8 @@ body {
 }
 .nav-list li a:hover {
     text-decoration: underline;
-    /*color: #ffe66d;
-    text-shadow: 1px 1px 5px #000;*/
+    color: blue;
+    /*text-shadow: 1px 1px 5px #000;*/
 }
 
 .flex-container {
@@ -64,4 +78,3 @@ body {
             height: 100vh;
             /* Full viewport height */
         }
-
