@@ -10,12 +10,7 @@
 /* To make the entire page centered*/
 body {
   font-family: 'Georgia', serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  margin: center;
+  magin: 5% 20% 5%;
 }
 
 .kalpurush-font{
