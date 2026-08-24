@@ -7,11 +7,17 @@
     padding: 0;
     box-sizing: border-box;
 }*/
-
-body{
-    font-family: 'Georgia', serif;
-    margin: auto;
+/* To make the entire page centered*/
+body {
+  font-family: 'Georgia', serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
 }
+
 
 .centre{
     display: flex;
