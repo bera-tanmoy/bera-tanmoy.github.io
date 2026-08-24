@@ -18,6 +18,10 @@ body {
   margin: 0;
 }
 
+.kalpurush-font{
+    font-family: 'Kalpurush', serif;
+}
+
 
 .centre{
     display: flex;
