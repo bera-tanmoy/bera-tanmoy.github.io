@@ -3,7 +3,7 @@
 /*font-family: 'Kalpurush', serif;*/
 
 * {
-    margin: auto
+    margin: center;
     padding: 0;
     box-sizing: border-box;
 }
@@ -19,9 +19,9 @@
     justify-content: space-between;
     align-items: center;
     position: sticky;
-    bacground-color: light grey;
+    bacground-color: light-grey;
     padding: 8px;
-    background-color: none;
+    
     
 }
 
