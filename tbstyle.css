@@ -34,10 +34,10 @@ body {
 }
 }
 
-/*.main-margin{
+.main-margin{
 	margin: 5px 600px;
 	/*margin: 0 auto;*/
-}*/
+}
 
 .kalpurush-font{
     font-family: 'Kalpurush', serif;
@@ -73,7 +73,7 @@ body {
 .nav-list {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 20px;
 	flex-wrap: wrap;
     list-style: none;
