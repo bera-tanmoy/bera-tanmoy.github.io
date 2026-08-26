@@ -22,15 +22,22 @@ body {
 }
 @media screen and (max-width: 1023px) and (min-width: 768px) {
   // Style for devices have width >= 768px and <= 1023px;
+	.main-margin{
+	margin: 0 auto;
+	}
 }
 @media screen and (min-width: 1024px) {
   // Style for devices have width >= 1024px;
+	.main-margin{
+	margin: 5px 600px;
+	/*margin: 0 auto;*/
+}
 }
 
-.main-margin{
-	/*margin: 5px 600px;*/
-	margin: 0 auto;
-}
+/*.main-margin{
+	margin: 5px 600px;
+	/*margin: 0 auto;*/
+}*/
 
 .kalpurush-font{
     font-family: 'Kalpurush', serif;
