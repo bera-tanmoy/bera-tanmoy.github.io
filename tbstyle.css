@@ -8,10 +8,15 @@
     box-sizing: border-box;
 }*/
 /* To make the entire page centered*/
+input,progress,select,textarea{
+	appearance:none;-webkit-appearance:none;-moz-appearance:none;
+}
+
 body {
   font-family: 'Georgia', serif;
   font-size: 20px;
   background-color: #FFFFFF;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 767px) {
@@ -65,8 +70,7 @@ body {
     border: 1px solid #E6F0DF; /* Adjust color and width as needed */
     height: auto;
     width: 100%;
-    margin-top: -25px;
-    margin-bottom: 15px;
+  	margin: 0.5rem 0 1rem 0;
     
 }
 
@@ -86,6 +90,7 @@ body {
     color: black;
     font-weight: bold;
     transition: color 0.3s ease;
+	white-space: nowrap;
 }
 .nav-list li a:hover {
     text-decoration: underline;
